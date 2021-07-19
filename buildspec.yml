@@ -9,5 +9,5 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - target/process-pension-service.war
+    - target/process-pension-service.jar
   discard-paths: yes
