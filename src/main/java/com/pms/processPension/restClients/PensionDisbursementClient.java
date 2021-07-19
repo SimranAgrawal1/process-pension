@@ -11,7 +11,7 @@ import com.pms.processPension.model.ProcessPensionInput;
  * To access Pension disbursement microservice
  * 
  */
-@FeignClient(name = "pension-disbursement-service", url = "http://localhost:9091") //9091
+@FeignClient(name = "pension-disbursement-service", url = "http://pmsprocessdisbursement-env.eba-2jw3zbss.ap-south-1.elasticbeanstalk.com") //9091
 public interface PensionDisbursementClient {
 
 	@PostMapping("/DisbursePension")
